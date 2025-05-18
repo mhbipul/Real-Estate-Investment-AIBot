@@ -1,5 +1,5 @@
 from crewai import Task
-from agents import property_researcher
+from agents import property_researcher, property_analyst
 
 research_task = Task(
     description="""Conduct a comprehensive analysis of potential retail property investments in the specified market.
@@ -46,7 +46,7 @@ research_task = Task(
     - Comprehensive financial projections
     - Risk assessment
     - Recommendations for further due diligence""",
-    output_json=True
+    output_json=None
 )
 
 

@@ -1,13 +1,17 @@
-from langchain_groq import ChatGroq
 from crewai import Agent
+from langchain_groq import ChatGroq
+from tools import search_tool
+from dotenv import load_dotenv
+load_dotenv()
 
 llm = ChatGroq(
-    model="mistral-saba-24b",
+    model="groq/deepseek-r1-distill-llama-70b",
     temperature=0,
+    max_tokens=None,
+    timeout=None,
     max_retries=2,
 )
 
-#create  agent
 
 old_property_researcher = Agent(
     llm = llm,
