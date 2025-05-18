@@ -1,4 +1,4 @@
-# 🏢 Retail Property Investment Analysis AI (China-focused)
+# 🏢 Retail Property Investment Analysis AI 
 
 This project uses **CrewAI** and **LangChain (via Groq)** to automate retail property investment research with AI agents. It focuses on analyzing promising retail property opportunities in **China**, producing investor-grade reports based on market trends, property metrics, and risk assessments.
 
