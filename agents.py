@@ -41,7 +41,7 @@ property_researcher = Agent(
         Your methodology integrates both quantitative analysis (cap rates, NOI, tenant credit ratings)
         and qualitative factors (neighborhood dynamics, retail trends, future development plans).""",
     allow_delegation=False,
-    #tools=[search_tool],
+    tools=[search_tool],
     verbose=True
 )
 
